@@ -14,16 +14,16 @@ function Board({ data }) {
                 <Card value={getValue(cases)} label="Total de casos" color="#5d78ff" />
             </Grid>
             <Grid item xs={12} md={3}>
-                <Card value={getValue(todayDeaths)} label="Óbitos hoje" color="#5d78ff" />
+                <Card value={getValue(todayDeaths)} label="Óbitos hoje" color="red" />
             </Grid>
             <Grid item xs={12} md={3}>
-                <Card value={getValue(todayCases)} label="Casos hoje" color="#5d78ff" />
+                <Card value={getValue(todayCases)} label="Casos hoje" color="green" />
             </Grid>
             <Grid item xs={12} md={3}>
-                <Card value={getValue(deaths)} label="Total de mortes" color="#5d78ff" />
+                <Card value={getValue(deaths)} label="Total de mortes" color="black" />
             </Grid>
             <Grid item xs={12} md={3}>
-                <Card value={getValue(recovered)} label="Total de recuperados" color="#5d78ff" />
+                <Card value={getValue(recovered)} label="Total de recuperados" color="yellow" />
             </Grid>
         </Grid>
     )
