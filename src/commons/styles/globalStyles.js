@@ -36,7 +36,7 @@ const globalStyle = createGlobalStyle `
     }
 
     .cursor {
-        cursos: pointer;
+        cursor: pointer;
     }
 `
 
